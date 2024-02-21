@@ -1,0 +1,16 @@
+/* Add this CSS to your styles or What.scss file */
+
+#containerWrapper {
+  overflow: hidden; /* Hide the scrollbar */
+}
+
+#cardsContainer {
+  display: flex;
+  width: 200%; /* Make the width larger to allow scrolling */
+}
+
+/* Additional styles to ensure proper scrolling behavior */
+#cardsContainer {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling for iOS devices */
+}
